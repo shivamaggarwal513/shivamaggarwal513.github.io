@@ -1,0 +1,5 @@
+site_name: Shivam Aggarwal
+site_url: https://shivamaggarwal513.github.io
+docs_dir: src
+theme:
+  name: material
