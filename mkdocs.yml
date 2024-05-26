@@ -3,3 +3,32 @@ site_url: https://shivamaggarwal513.github.io
 docs_dir: src
 theme:
   name: material
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/weather-partly-cloudy
+        name: Auto
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+  # logo: assets/logo.png
+  # favicon: assets/favicon.png
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
